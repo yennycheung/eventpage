@@ -1,0 +1,57 @@
+/* INCLUDE FONTS */
+@import url("http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,700italic");
+@import url("http://fonts.googleapis.com/css?family=Raleway:500,700,400,200,300,400italic,100");
+@import url("http://fonts.googleapis.com/css?family=Abel");
+/* END INCLUDE FONTS */
+
+*{
+	font-family: 'Raleway', helvetica, sans-serif;
+}
+
+p, li, a, span {
+    
+    font-size:16px;
+}
+p, li, span, h1, h3, h4, h5, h6 {
+    
+   
+}
+h1 {
+	color: $blue;
+	font-family: Playfair Display;
+	font-size: 50px;
+	font-style:italic;
+}
+
+h2 {  
+    color: white;
+	letter-spacing: 1.5px;
+	font-weight: 400;
+	font-size: 18px;  
+}
+h3 {
+   color: white;
+   font-weight: 400;
+   font-style: italic;
+}
+h4 {
+    color: $dark;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: Abel;
+}
+h5 {
+    font-size: 30px;
+    font-weight: 400;
+}
+p {
+	line-height: 160%;
+	font-weight: 300;
+}
+a {
+    text-decoration:none;
+    color: black;
+}
+strong {
+    
+}

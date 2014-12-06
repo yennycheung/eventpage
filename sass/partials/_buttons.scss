@@ -1,0 +1,21 @@
+input, textarea {
+	width:100%;
+	
+}
+input[type=submit]{
+	font-family: Playfair Display;
+	font-weight: 700;
+	font-style: italic;
+	width: 20%;
+	background: none;
+	font-size: 18px;
+	line-height: 18px;
+	color:#fff;
+	padding: 10px 50px;
+	border: solid white 1px;
+	&:hover{
+		cursor: pointer;
+		background: white;
+		color: black;
+	}
+}
