@@ -1,5 +1,13 @@
 $(function() {
 	$(".fade-right").hide();
+	$(".fakeloader").fakeLoader({
+		timeToHide:1200, //Time in milliseconds for fakeLoader disappear
+		zIndex:"999",//Default zIndex
+		spinner:"spinner4",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+		bgColor:"#000", //Hex, RGB or RGBA colors
+	});
+	var height = $(window).innerHeight()*0.9;
+	$(".welcome").css("height", height.toString());
     scrollPos = $(window).scrollTop();
     $(window).scroll(function() {  
     	console.log(scrollPos);
@@ -34,7 +42,37 @@ $(function() {
 	      }
 	    }
 	});
+
+	//blockUI -- showing RSVP modal
+	$.blockUI.defaults.css = {
+		// padding:	'3%',
+		// margin:		0,
+		// width:		'30%',
+		// top:		'20%',
+		// left:		'35%',
+		// textAlign:	'center',
+		// color:		'#000',
+		// backgroundColor:'#fff',
+	};
+	$(document).on('click', '#rsvp-btn', function() {
+	   $.blockUI({message: $('.rsvp-modal')});
+	});
+   
+    $('#closing-cross').click(function(){
+    	$.unblockUI();
+    });
+
+	$('.guests img').hover(function(){
+	   $( this ).parent().find( "span" ).fadeIn();
+	   $( this ).parent().find( "h5" ).css("border", "none");
+	}, function() {
+	    $( this ).parent().find( "span" ).hide();	  
+		$( this ).parent().find( "h5" ).css("border", "1px $blue");
+	});
+
 });
+
+
 
 // 	// Form Validation
 // 	ezValidation.init();

@@ -11,23 +11,10 @@ body {
 header, nav, section, article, aside, footer {
    display:block;
 }
-.container {
-	
-}
-.error {
-	color:red !important;
-	border-color:red !important;
-}
 .wrapper {
 	width: 70%;
 	margin: 7.5% auto;
 	overflow:auto;
-	.inner {
-		
-	}
-}
-.base {
-	
 }
 .left, .right{
 	width: 40%;
@@ -48,16 +35,6 @@ section {
 	width: 100%;
 	overflow: hidden;
 	clear: both;
-}
-section.everythingcentered {
-	overflow:hidden;
-	padding:50px 0;
-	h2 {
-	 	text-align: center;
-	}
-	p {
-		text-align: center;
-	}
 }
 .hide {
 	display: none;

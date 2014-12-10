@@ -10,8 +10,9 @@
 	<!-- SASS INCLUDES -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
+<body>  
 	<div class="home">
+		<div class="fakeloader"></div>  
 		<section class = "welcome">
 			<div class = "wrapper">
 				<div class = "logo">
@@ -19,10 +20,20 @@
 					<h2>RENT THE RUNWAY</h2>
 				</div>
 				<div class = "bottom">
-					<h3>VIP MIXER</h3>
+					<h2>VIP MIXER</h2>
 					<h4>SUN, &nbspDEC 7, &nbsp2014 &nbsp7:30PM - 9:30PM</h4>
-					<input type = "submit" value="RSVP">
+					<input type = "submit" id = "rsvp-btn" value="RSVP">
 				</div>
+			</div>
+			<div class='rsvp-modal hide'>
+				<a href="" id="closing-cross">x</a>
+				<h1>RSVP</h1> 
+				<form action="" method="post">
+				    <input type="text" name="firstName" required placeholder="First Name">
+				    <input type="text" name="lastName" required placeholder="Last Name">
+				    <input type="email" name="email" required placeholder="Email">
+				    <input type="submit" value="Submit" />
+				</form>
 			</div>
 		</section>
 		<section class = "down">
@@ -39,17 +50,51 @@
 		<section class = "introduction">
 			<div class = "wrapper">
 				<div class = "left">
-					<h5 class = "fade-right">“I DON’T HIRE PEOPLE TO AGREE WITH ME. I HIRE PEOPLE WITH BIG OPINIONS AND BIG DREAMS.”</h5>
+					<h5 class = "fade-right">"I don't hire people to agree with me. I hire people with big opinions and big dreams."</h5>
 					<p class = "fade-right">- Jennifer Hyman, CEO and Founder of Rent The Runway</p>
 				</div>
 				<div class = "right">
-					<p class= "fade-right">This winter's Rent The Runway event features various engineers and managers on Rent The Runway's search and discovery teams as well as Jennifer Hyman, the CEO and Co-Founder of Rent The Runway. We can’t wait to share our insights and hope you’ll join us. Food and drinks will be provided.</p>
+					<p class = "fade-right">This winter's Rent The Runway event features various engineers and managers on Rent The Runway's search and discovery teams as well as Jennifer Hyman, the CEO and Co-Founder of Rent The Runway. We can’t wait to share our insights and hope you’ll join us. Food and drinks will be provided at the event.</p>
 				</div>
+			</div>
+		</section>
+		<section class = "guests">
+			<div class = "wrapper">
+				<h1>Speakers</h1>
+				<div class = "row">
+					<img src = "img/guests_1.png" alt = "Jennifer Hyman">
+					<h5>Jennifer Hyman<br><span>Chief Executive Officer</span></h5>
+				</div>
+				<div class = "row">
+					<h5>Jennifer Fleiss<br><span>Head of Development</span></h5>
+					<img src = "img/guests_2.png" alt = "Jennifer Fleiss">
+				</div>
+				<div class = "row">
+					<img src = "img/guests_3.png" alt = "Camille Fournier">
+					<h5>Camille Fournier<br><span>Chief Technology Officer</span></h5>
+				</div>
+				<div class = "row">
+					<h5>Marissa Evans<br><span>Pillar General Manager</span></h5>
+					<img src = "img/guests_4.png" alt = "Marissa Evans">
+				</div>						
+			</div>
+		</section>
+		<section class = "footer">
+			<div class = "left">
+				<h3>splash</h3>
+			</div>
+			<div class = "right">
+				<img src="img/calendar.png">
+				<a href="https://www.renttherunway.com/">Contact the Organizer</a>
 			</div>
 		</section>
 	</div><!-- end home -->
 	<!-- JS INCLUDES -->
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/fakeLoader.min.js"></script>
+	<script src="js/jquery.blockUI.js"></script>
 	<script src="js/main.js"></script>
+	
+
 </body>
 </html>

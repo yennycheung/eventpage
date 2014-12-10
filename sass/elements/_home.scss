@@ -3,7 +3,7 @@
 		position: relative;
 		background-color: black;
 		text-align: center;
-		height: 610px;
+		height: 630px;
 		z-index: 1;
 		.logo, .bottom{
 			position: fixed;
@@ -19,20 +19,24 @@
 			}
 		}
 		.bottom{
-			top: 63%;
+			top: 60%;
+			h2{
+				font-style: italic;
+			}
 			h4{
-				margin-top: 18px;
+				margin-top: 10px;
 			}
 			input{
-				box-sizing: content-box;
-				margin: 40px;
+				width: 70%;
+				margin: 30px;
 			}
 		}
 	}
 	.down{
+		position: relative;
 		text-align: center;
 		line-height: 80px;
-		z-index: 999;
+		z-index: 888;
 		#arrow-down{
 			font-weight:bold;
 			font-size: 20px;
@@ -44,7 +48,7 @@
 		z-index: 999;
 	}
 	.introduction{
-		background-color: $blue;
+		background-color: $dark;
 		height: 480px;
 		color: white;
 		.left{
@@ -57,6 +61,118 @@
 			p{
 				font-weight: 100;
 			}
+		}
+	}
+	.guests{
+		text-align: center;
+		.row{
+			display: block;
+			overflow:auto;
+			box-sizing: border-box;
+			padding: 0 10%;
+			height: 380px;
+			overflow:hidden;
+			img{
+				webkit-transition: all 0.3s ease;
+			    -moz-transition: all 0.3s ease;
+			    -o-transition: all 0.3s ease;
+			    -ms-transition: all 0.3s ease;
+			    transition: all 0.3s ease;
+				display: inline-block;
+				height: 270px;
+				margin: 50px 0;
+				&:nth-child(odd){
+					float:right;
+				}
+				&:nth-child(even){
+					float:left;
+				}	
+				&:hover{
+					cursor:pointer;
+					-webkit-transform: scale(0.96,0.96);
+    				-moz-transform:scale(0.96,0.96);
+				}			
+			}
+			h5{
+				display: inline-block;
+				padding: 10px 0;
+				border-bottom: $light-blue solid 1px;
+				margin: 155px 0 ;
+				color: $blue;
+				line-height: 30px;
+				text-align: center;
+				span{
+					color: $light-blue;
+					display:none;
+					margin-top: -5px;
+				}
+				&:nth-child(odd){
+					float:right;
+				}
+				&:nth-child(even){
+					float:left;
+				}			
+			}		
+		}		
+	}
+	.footer{
+		background-color: #1f1f1f;
+		h3{
+			line-height: 100px;
+		}
+		.right{
+			text-align: right;
+			a{
+				webkit-transition: all 0.6s ease;
+			    -moz-transition: all 0.6s ease;
+			    -o-transition: all 0.6s ease;
+			    -ms-transition: all 0.6s ease;
+			    transition: all 0.6s ease;
+				padding: 5px;
+				color: white;
+				line-height: 100px;
+				font-size: 12px;
+				text-transform: uppercase;
+				&:hover{
+					background-color:white;
+					border-radius: 2px;
+					color: black;
+				}
+			}
+			img{
+				vertical-align: middle;
+				margin-right: 10px;
+			}
+		}
+	}
+}
+//css for rsvp modal
+.blockUI {
+	padding:3%;
+	width: 30%;
+	top: 20%;
+	left: 35%;
+	text-align:center;
+	color: #000;
+	background-color: #fff;
+	#closing-cross{
+		position: absolute;
+		top: 10px;
+		right: 20px;
+		cursor: pointer;
+	}
+	input{
+		border: 1px $light-blue solid;
+	}
+	input[type=submit]{
+		width: 60%;
+		border: 1px $blue solid;
+		margin-top: 20px;
+		color: $blue;
+		border: 2px $blue solid;
+		&:hover{
+			background-color: $blue;
+			color: white;
 		}
 	}
 }
