@@ -307,6 +307,7 @@ header, nav, section, article, aside, footer {
 
 .wrapper {
   width: 70%;
+  max-width: 960px;
   margin: 7.5% auto;
   overflow: auto; }
 
