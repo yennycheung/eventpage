@@ -1,10 +1,15 @@
 @media (max-width: 758px) {
-	.left, .right{
-		width: auto;
+	.introduction{
+		.left, .right{
+			float:none;
+			width: auto;
+			padding: 30px 0;
+		}
 	}
 	.guests{
 		.row{
 			height: 450px !important;
+			margin-bottom: 30px !important;
 			h5, img{
 				float: none !important;
 			}
@@ -18,8 +23,9 @@
 			}
 		}		
 	}
-
 	.footer{
-		
+		.left, .right{
+			width: auto;
+		}
 	}
 }	

@@ -1,17 +1,9 @@
-Custom HTML5 Boilerplate
-========================
+Splash Design Challenge
 
-Features
-________
+Designing and Coding an invite page for an event. 
+Language used: HTML, CSS (with SASS), Javascript / jQuery
+Plugins: fakeLoader.js, jquery.blockUI.js
+The page flows all the way to mobile.
 
-- SASS
-  - 2014 worlflow (structured for perfection)
-- HTML5
-- jQuery
-- Bootstrap
-- AngularJS 
-- Github Pull Request
-- ezValidation.js
-- jquery.sticky.js
-
-2014 | Shivam Bhalla
+By Yenny Cheung
+Credits to Shivam Bhalla for Custom HTML5 Boilerplate

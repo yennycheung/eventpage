@@ -1,12 +1,10 @@
 //Custom
 @media (max-width: 1165px) {
-	@import "custom/base";
 	@import "custom/home";  
 }
 
 //Tablet (Horizontal)
 @media (max-width: 1024px) { 
-	@import "tablet/base";
 	@import "tablet/home";
 }
 
@@ -17,7 +15,6 @@
 
 //Mobile Devices
 @media (max-width: 568px) { 
-	@import "mobile/base";
 	@import "mobile/home";
 
 }
