@@ -48,6 +48,8 @@
 		z-index: 999;
 	}
 	.introduction{
+		position: relative;
+		z-index: 777;
 		background-color: $dark;
 		height: 480px;
 		color: white;

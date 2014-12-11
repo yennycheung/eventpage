@@ -449,6 +449,8 @@ span {
   text-align: center;
   z-index: 999; }
 .home .introduction {
+  position: relative;
+  z-index: 777;
   background-color: #474B4C;
   height: 480px;
   color: white; }

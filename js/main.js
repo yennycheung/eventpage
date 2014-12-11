@@ -17,10 +17,10 @@ $(function() {
 
     scrollPos = $(window).scrollTop();
     $(window).scroll(function() {  
-        if (scrollPos > 500) {
+        if (scrollPos > 800) {
             $(".logo").hide();
         } 
-        if (scrollPos < 500) {
+        if (scrollPos < 800) {
             $(".logo").show();
         } 
         if (scrollPos > 110) {
