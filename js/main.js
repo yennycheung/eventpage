@@ -6,8 +6,15 @@ $(function() {
 		spinner:"spinner4",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
 		bgColor: "#1f1f1f", //Hex, RGB or RGBA colors
 	});
-	var height = $(window).innerHeight()*0.91;
-	$(".welcome").css("height", height.toString());
+	var height = $(window).innerHeight();
+	$(".welcome").css("height", height*0.91.toString());
+	if (height > 900) {
+		$(".bottom").css("top", "55%");
+	} 
+	if (height > 1000) {
+		$(".logo").css("top", "35%");
+	}
+
     scrollPos = $(window).scrollTop();
     $(window).scroll(function() {  
         if (scrollPos > 500) {
