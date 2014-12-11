@@ -1,126 +1,11 @@
-/* INCLUDE FONTS */
-@import url("http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,700italic");
-@import url("http://fonts.googleapis.com/css?family=Raleway:500,700,400,200,300,400italic,100");
-@import url("http://fonts.googleapis.com/css?family=Abel");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:700");
-/* END INCLUDE FONTS */
-* {
-  font-family: 'Raleway', helvetica, sans-serif; }
-
-p, li, a, span {
-  font-size: 16px; }
-
-h1 {
-  color: #1e2553;
-  font-family: Playfair Display;
-  font-size: 50px;
-  font-style: italic;
-  padding: 30px 0; }
-
-h2 {
-  color: white;
-  letter-spacing: 1.5px;
-  font-weight: 400;
-  font-size: 18px; }
-
-h3 {
-  color: white;
-  font-size: 30px;
-  font-family: Source Sans Pro; }
-
-h4 {
-  color: #474B4C;
-  font-weight: 400;
-  font-size: 22px;
-  font-family: Abel; }
-
-h5 {
-  font-family: Playfair Display;
-  font-size: 30px;
-  font-weight: 400; }
-
-p {
-  line-height: 160%;
-  font-weight: 300; }
-
-a {
-  text-decoration: none;
-  color: black; }
-
-span {
-  font-size: 15px; }
-
-* {
-  margin: 0;
-  padding: 0;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-header, nav, section, article, aside, footer {
-  display: block; }
-
-.wrapper {
-  width: 70%;
-  margin: 7.5% auto;
-  overflow: auto; }
-
-.left, .right {
-  width: 40%; }
-
-.left {
-  float: left;
-  padding-left: 30px; }
-
-.right {
-  float: right;
-  padding-right: 30px; }
-
-form {
-  width: 100%;
-  overflow: hidden; }
-
-section {
-  width: 100%;
-  overflow: hidden;
-  clear: both; }
-
-.hide {
-  display: none; }
-
-.show {
-  display: block; }
-
-input, textarea {
-  width: 100%;
-  font-size: 13px;
-  padding: 8px;
-  margin-bottom: 15px; }
-
-input[type=submit] {
-  webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  -ms-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-  font-family: Playfair Display;
-  font-weight: 700;
-  font-style: italic;
-  background: none;
-  font-size: 18px;
-  line-height: 18px;
-  color: #fff;
-  padding: 2.5% 4%;
-  border: solid white 1px; }
-  input[type=submit]:hover {
-    cursor: pointer;
-    background: white;
-    color: black; }
-
 /**********************
  *CSS Animations by:
  *http://codepen.io/vivinantony
 ***********************/
+@import url("http://fonts.googleapis.com/css?family=Playfair+Display:400,700italic");
+@import url("http://fonts.googleapis.com/css?family=Raleway:300,100");
+@import url("http://fonts.googleapis.com/css?family=Abel");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:700");
 .fakeloader .spinner1 {
   width: 40px;
   height: 40px;
@@ -410,9 +295,124 @@ input[type=submit] {
   20% {
     transform: translateY(-20px);
     -webkit-transform: translateY(-20px); } }
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+header, nav, section, article, aside, footer {
+  display: block; }
+
+.wrapper {
+  width: 70%;
+  margin: 7.5% auto;
+  overflow: auto; }
+
+.left, .right {
+  width: 40%; }
+
+.left {
+  float: left;
+  padding-left: 30px; }
+
+.right {
+  float: right;
+  padding-right: 30px; }
+
+form {
+  width: 100%;
+  overflow: hidden; }
+
+section {
+  width: 100%;
+  overflow: hidden;
+  clear: both; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
+
+input, textarea {
+  width: 100%;
+  font-size: 13px;
+  padding: 8px;
+  margin-bottom: 15px; }
+
+input[type=submit] {
+  webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: italic;
+  background: none;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  padding: 2.5% 4%;
+  border: solid white 1px; }
+  input[type=submit]:hover {
+    cursor: pointer;
+    background: white;
+    color: black; }
+
+/* INCLUDE FONTS */
+/* END INCLUDE FONTS */
+* {
+  font-family: 'Raleway', helvetica, sans-serif; }
+
+p, li, a, span {
+  font-size: 16px; }
+
+h1 {
+  color: #1e2553;
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-style: italic;
+  padding: 30px 0; }
+
+h2 {
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  font-size: 18px; }
+
+h3 {
+  color: white;
+  font-size: 30px;
+  font-family: Source Sans Pro; }
+
+h4 {
+  color: #474B4C;
+  font-weight: 400;
+  font-size: 22px;
+  font-family: Abel; }
+
+h5 {
+  font-family: Playfair Display;
+  font-size: 30px;
+  font-weight: 400; }
+
+p {
+  line-height: 160%;
+  font-weight: 300; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+span {
+  font-size: 15px; }
+
 .home .welcome {
   position: relative;
-  background-color: black;
+  background-color: #1f1f1f;
   text-align: center;
   height: 630px;
   z-index: 1; }
@@ -462,9 +462,17 @@ input[type=submit] {
     display: block;
     overflow: auto;
     box-sizing: border-box;
-    padding: 0 10%;
+    padding: 0 7%;
     height: 380px;
     overflow: hidden; }
+    .home .guests .row:nth-child(odd) img {
+      float: right; }
+    .home .guests .row:nth-child(odd) h5 {
+      float: left; }
+    .home .guests .row:nth-child(even) img {
+      float: left; }
+    .home .guests .row:nth-child(even) h5 {
+      float: right; }
     .home .guests .row img {
       webkit-transition: all 0.3s ease;
       -moz-transition: all 0.3s ease;
@@ -472,12 +480,9 @@ input[type=submit] {
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease;
       display: inline-block;
-      height: 270px;
+      width: auto;
+      max-width: 470px;
       margin: 50px 0; }
-      .home .guests .row img:nth-child(odd) {
-        float: right; }
-      .home .guests .row img:nth-child(even) {
-        float: left; }
       .home .guests .row img:hover {
         cursor: pointer;
         -webkit-transform: scale(0.96, 0.96);
@@ -494,13 +499,10 @@ input[type=submit] {
         color: rgba(30, 37, 83, 0.5);
         display: none;
         margin-top: -5px; }
-      .home .guests .row h5:nth-child(odd) {
-        float: right; }
-      .home .guests .row h5:nth-child(even) {
-        float: left; }
 .home .footer {
   background-color: #1f1f1f; }
   .home .footer h3 {
+    display: inline-block;
     line-height: 100px; }
   .home .footer .right {
     text-align: right; }
@@ -548,28 +550,55 @@ input[type=submit] {
       background-color: #1e2553;
       color: white; }
 
+@media (max-width: 1165px) {
+  .home .guests .row {
+    padding: 0; }
+    .home .guests .row h5 {
+      font-size: 28px; } }
 @media (max-width: 1024px) {
-  .home .banner {
-    height: auto;
-    overflow: hidden;
-    padding-bottom: 30px; }
-  .home .mobilecloud .text {
-    margin-top: 20px;
-    width: 49%; }
-  .home .mobilecloud img {
-    width: 50%; }
-  .home .rules img {
-    width: 100%; }
-  .home .corporate .text {
-    margin-left: 0;
-    float: right;
-    margin-top: 10px; }
-  .home .corporate img {
-    width: 45%; } }
+  .blockUI {
+    padding: 7%;
+    width: 50%;
+    left: 25%; }
+
+  .wrapper {
+    width: 80%; }
+
+  .guests img {
+    height: 250px; }
+  .guests h5 {
+    margin: 130px 0 !important;
+    border-bottom: 0px !important; }
+  .guests span {
+    display: inline-block !important; } }
+@media (max-width: 786px) and (max-width: 758px) {
+  .left, .right {
+    width: auto; }
+
+  .guests .row {
+    height: 450px !important; }
+    .guests .row h5, .guests .row img {
+      float: none !important; }
+    .guests .row h5 {
+      margin: 0 !important;
+      font-size: 35px !important; }
+    .guests .row img {
+      margin: 30px 0 !important;
+      height: 270px !important; } }
 @media (max-width: 568px) {
   .blockUI {
     padding: 7%;
     width: 70%;
-    left: 15%; } }
+    left: 15%; }
+
+  .home .introduction .left, .home .introduction .right {
+    float: none;
+    width: auto;
+    padding: 30px 0; }
+  .home .details .wrapper {
+    margin-bottom: 80px; }
+  .home .guests h5 {
+    font-size: 30px !important;
+    height: 250px !important; } }
 
 /*# sourceMappingURL=main.css.map */

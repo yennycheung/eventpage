@@ -1,38 +1,21 @@
-.home {
-	.banner {
-	    height: auto;
-	    overflow: hidden;
-	    padding-bottom: 30px;
-	}
-	.mobilecloud {
-		.text {
-			margin-top:20px;
-			width: 49%;
-		}
-		img {
-			width: 50%;
-		}
-	}
-	.rules {
-		.text {
-			
-		}
-		img {
-			width: 100%;
-		}
-	}
-	.corporate {
-		.text {
-			margin-left: 0;
-			float: right;
-			margin-top: 10px;
-
-		}
-		img {
-			width: 45%;
-		}
-	
-	}
+.blockUI{
+	padding:7%;
+	width: 50%;
+	left: 25%;
 }
 
-
+.wrapper{
+	width: 80%;
+}
+.guests{
+	img{
+		height: 250px;
+	}
+	h5{
+		margin: 130px 0 !important;
+		border-bottom: 0px !important;
+	}
+	span{
+			display: inline-block !important;
+	}
+}

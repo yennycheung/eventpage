@@ -3,3 +3,24 @@
 	width: 70%;
 	left: 15%;
 }
+
+.home{
+	.introduction{
+		.left, .right{
+			float:none;
+			width: auto;
+			padding: 30px 0;
+		}
+	}
+	.details{
+		.wrapper{
+			margin-bottom: 80px;
+		}
+	}
+	.guests{
+		h5{
+			font-size: 30px !important;
+			height: 250px !important;
+		}
+	}
+}

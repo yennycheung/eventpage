@@ -1,22 +1,23 @@
-//Tablet (horizontal)
-@media (max-width: 1024px) { 
-	@import "tablet/base";
-	@import "tablet/footer";
-	@import "tablet/header";
-	@import "tablet/home";
-	@import "tablet/secondary";
+//Custom
+@media (max-width: 1165px) {
+	@import "custom/base";
+	@import "custom/home";  
 }
 
-//Tablet (Verticle) 
+//Tablet (Horizontal)
+@media (max-width: 1024px) { 
+	@import "tablet/base";
+	@import "tablet/home";
+}
+
+//Tablet (Vertical) 
 @media (max-width: 786px) {
-	@import "tablet/verticle";
+	@import "tablet/vertical";
 }
 
 //Mobile Devices
 @media (max-width: 568px) { 
 	@import "mobile/base";
-	@import "mobile/footer";
-	@import "mobile/header";
 	@import "mobile/home";
-	@import "mobile/secondary";
+
 }

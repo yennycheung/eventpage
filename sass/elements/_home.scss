@@ -1,7 +1,7 @@
 .home{
 	.welcome{
 		position: relative;
-		background-color: black;
+		background-color: $black;
 		text-align: center;
 		height: 630px;
 		z-index: 1;
@@ -69,9 +69,25 @@
 			display: block;
 			overflow:auto;
 			box-sizing: border-box;
-			padding: 0 10%;
+			padding: 0 7%;
 			height: 380px;
 			overflow:hidden;
+			&:nth-child(odd){
+				img{
+					float:right;
+				}
+				h5{
+					float:left;
+				}
+			}
+			&:nth-child(even){
+				img{
+					float:left;
+				}
+				h5{
+					float:right;
+				}
+			}	
 			img{
 				webkit-transition: all 0.3s ease;
 			    -moz-transition: all 0.3s ease;
@@ -79,14 +95,10 @@
 			    -ms-transition: all 0.3s ease;
 			    transition: all 0.3s ease;
 				display: inline-block;
-				height: 270px;
+				width: auto;
+				max-width: 470px;
 				margin: 50px 0;
-				&:nth-child(odd){
-					float:right;
-				}
-				&:nth-child(even){
-					float:left;
-				}	
+				
 				&:hover{
 					cursor:pointer;
 					-webkit-transform: scale(0.96,0.96);
@@ -106,18 +118,13 @@
 					display:none;
 					margin-top: -5px;
 				}
-				&:nth-child(odd){
-					float:right;
-				}
-				&:nth-child(even){
-					float:left;
-				}			
 			}		
 		}		
 	}
 	.footer{
-		background-color: #1f1f1f;
+		background-color: $black;
 		h3{
+			display: inline-block;
 			line-height: 100px;
 		}
 		.right{
